@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/badhacker.net/static/css/main.c040ebdd.css",
+    "main.js": "/badhacker.net/static/js/main.0a3cfd89.js",
+    "static/media/homeimg.png": "/badhacker.net/static/media/homeimg.bd8896dac6ab22640d5b.png",
+    "index.html": "/badhacker.net/index.html",
+    "main.c040ebdd.css.map": "/badhacker.net/static/css/main.c040ebdd.css.map",
+    "main.0a3cfd89.js.map": "/badhacker.net/static/js/main.0a3cfd89.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c040ebdd.css",
+    "static/js/main.0a3cfd89.js"
+  ]
+}
