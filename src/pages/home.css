@@ -1,0 +1,62 @@
+.homepage {
+  height: 1080px;
+  background: url(../images/homeimg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#hometitle {
+  height: 180px;
+  display: flex;
+  color: #0ce2ad;
+  font-size: 50px;
+  justify-content: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+#homecon {
+  display: flex;
+  color: black;
+  font-size: 25px;
+  justify-content: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+@media only screen and (max-width: 540px) {
+  #hometitle {
+    height: 120px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  #homecon {
+    font-size: 20px;
+  }
+}
+
+.twitterwala {
+  position: relative;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+@media only screen and (max-width: 540px) {
+  .twitterwala {
+    top: 15%;
+    margin-left: 0px;
+  }
+}
+
+.discordwala {
+  position: relative;
+  margin-top: 200px;
+  margin-right: 200px;
+}
+
+@media only screen and (max-width: 540px) {
+  .discordwala {
+    top: 5%;
+    margin-right: 0px;
+  }
+}

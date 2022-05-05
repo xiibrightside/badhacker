@@ -3,6 +3,7 @@ import "./index.css";
 import { Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Discord from "./pages/Discord";
+import Twitter from "./pages/Twitter";
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       </Route>
       <Route exact path="/discord">
         <Discord />
+      </Route>
+      <Route exact path="/twitter">
+        <Twitter />
       </Route>
       <Route>
         <div>Not Found</div>

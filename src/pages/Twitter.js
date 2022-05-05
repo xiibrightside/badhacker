@@ -1,17 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./pages.css";
 
-const Discord = () => {
+const Twitter = () => {
   return (
     <body className="pagebody">
       <div id="pagetitle">
-        <h1>DISCORD</h1>
+        <h1>TWITTER</h1>
       </div>
       <div id="pagelink">
         <p>
-          Server Link :-{" "}
-          <a href="https://discord.gg/PxkuPtH8KV">badhacker.net</a>
+          Twitter Handle :-{" "}
+          <a href="https://twitter.com/badhackerdotnet?t=yRXwLRqlas3jCpxTHFRFiQ&s=09">
+            @badhackerdotnet
+          </a>
         </p>
       </div>
       <div>
@@ -41,4 +42,4 @@ const Discord = () => {
   );
 };
 
-export default Discord;
+export default Twitter;

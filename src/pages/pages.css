@@ -1,0 +1,103 @@
+.pagebody {
+  height: 1080px;
+  background: url("../images/homeimg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#pagetitle {
+  height: 180px;
+  display: flex;
+  color: #0ce2ad;
+  font-size: 50px;
+  justify-content: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+@media only screen and (max-width: 540px) {
+  #pagetitle {
+    height: 140px;
+    font-size: 35px;
+  }
+}
+
+#pagelink {
+  display: flex;
+  color: black;
+  font-size: 25px;
+  justify-content: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+@media only screen and (max-width: 540px) {
+  #pagelink {
+    font-size: 15px;
+  }
+}
+
+.container {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  border-radius: 10px;
+  cursor: crosshair;
+  background: transparent;
+  border: 1px solid #91c9ff;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  width: 180px;
+  height: 60px;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: rgb(255, 255, 255);
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 800ms ease-in-out;
+}
+
+.btn:hover {
+  transition: 800ms ease-in-out;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span.disc {
+  color: #7289da;
+}
+
+.btn span.twit {
+  color: #1da1f2;
+}
+
+a {
+  text-decoration: none;
+  color: #0ce2ad;
+}
+a:hover {
+  color: #6fdfdf;
+  transition: 300ms ease-in-out;
+}
