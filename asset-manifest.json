@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/badhacker.net/static/css/main.c040ebdd.css",
-    "main.js": "/badhacker.net/static/js/main.0a3cfd89.js",
-    "static/media/homeimg.png": "/badhacker.net/static/media/homeimg.bd8896dac6ab22640d5b.png",
-    "index.html": "/badhacker.net/index.html",
-    "main.c040ebdd.css.map": "/badhacker.net/static/css/main.c040ebdd.css.map",
-    "main.0a3cfd89.js.map": "/badhacker.net/static/js/main.0a3cfd89.js.map"
+    "main.css": "/badhacker/static/css/main.560a2641.css",
+    "main.js": "/badhacker/static/js/main.0a3cfd89.js",
+    "static/media/homeimg.png": "/badhacker/static/media/homeimg.bd8896dac6ab22640d5b.png",
+    "index.html": "/badhacker/index.html",
+    "main.560a2641.css.map": "/badhacker/static/css/main.560a2641.css.map",
+    "main.0a3cfd89.js.map": "/badhacker/static/js/main.0a3cfd89.js.map"
   },
   "entrypoints": [
-    "static/css/main.c040ebdd.css",
+    "static/css/main.560a2641.css",
     "static/js/main.0a3cfd89.js"
   ]
 }
